@@ -1,0 +1,48 @@
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weihnachten in London</title>
+</head>
+<body>
+  <header>
+    <h1>Weihnachten in London</h1>
+    <p>Lichter, Märkte und winterliche Stimmung in der britischen Hauptstadt.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Highlights</h2>
+      <ul>
+        <li>Weihnachtsmärkte (z. B. am Southbank Centre)</li>
+        <li>Festliche Beleuchtung in Oxford Street & Regent Street</li>
+        <li>Eislaufen bei Somerset House oder dem Natural History Museum</li>
+        <li>Winter Wonderland im Hyde Park</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kurzer Tipp</h2>
+      <p>
+        Am Abend wirken die Lichter am schönsten. Zieh dich warm an und plane genug Zeit für den
+        öffentlichen Verkehr ein.
+      </p>
+    </section>
+
+    <section>
+      <h2>Mehr Infos</h2>
+      <p>
+        Eine gute Übersicht findest du z. B. bei offiziellen Tourismus-Seiten oder aktuellen Eventkalendern.
+        (Dieser Text ist nur ein Beispiel.)
+      </p>
+      <a href="https://visitlondon.com/" target="_blank" rel="noopener noreferrer">
+        Visit London (externer Link)
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 – Weihnachtszauber in London</p>
+  </footer>
+</body>
+</html>
