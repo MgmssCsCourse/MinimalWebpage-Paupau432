@@ -4,68 +4,179 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weihnachten in London</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333333;
+        }
+
+        header {
+            background-image: url("images/london-eye.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            color: white;
+            text-align: center;
+            padding-top: 120px;
+        }
+
+        header h1 {
+            font-size: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            padding: 10px 20px;
+        }
+
+        nav {
+            background-color: #006400;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: gold;
+        }
+
+        section {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #b30000;
+        }
+
+        img {
+            width: 100%;
+            max-width: 700px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        .info-box {
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-left: 5px solid #006400;
+            margin-top: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid gray;
+        }
+
+        th {
+            background-color: #b30000;
+            color: white;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
 
     <header>
         <h1>Weihnachten in London</h1>
-        <p>Eine der schönsten Städte zur Weihnachtszeit</p>
+        <p>Eine magische Reise durch die britische Hauptstadt</p>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#lichter">Lichter</a></li>
-            <li><a href="#maerkte">Weihnachtsmärkte</a></li>
-            <li><a href="#sehenswuerdigkeiten">Sehenswürdigkeiten</a></li>
-        </ul>
+        <a href="#lichter">Lichter</a>
+        <a href="#wonderland">Winter Wonderland</a>
+        <a href="#events">Events</a>
     </nav>
 
-    <main>
+    <section id="lichter">
+        <h2>Die berühmten Weihnachtslichter</h2>
 
-        <section id="lichter">
-            <h2>Die Weihnachtslichter</h2>
+        <img src="images/oxford-street.jpg" alt="Oxford Street">
 
-            <img src="images/oxford-street.jpg" alt="Weihnachtsbeleuchtung in Oxford Street">
+        <p>
+            Jedes Jahr besuchen Millionen Menschen London,
+            um die beeindruckenden Weihnachtslichter in der
+            Oxford Street und Regent Street zu sehen.
+        </p>
 
-            <p>
-                London ist bekannt für seine beeindruckenden
-                Weihnachtslichter. Besonders die Oxford Street
-                und die Regent Street werden jedes Jahr festlich
-                geschmückt.
-            </p>
-        </section>
+        <div class="info-box">
+            Die Beleuchtung besteht aus Tausenden von LED-Lampen
+            und wird oft bereits im November eingeschaltet.
+        </div>
+    </section>
 
-        <section id="maerkte">
-            <h2>Winter Wonderland</h2>
+    <section id="wonderland">
+        <h2>Winter Wonderland</h2>
 
-            <img src="images/winter-wonderland.jpg" alt="Winter Wonderland">
+        <img src="images/winter-wonderland.jpg" alt="Winter Wonderland">
 
-            <p>
-                Das Winter Wonderland im Hyde Park gehört zu den
-                beliebtesten Weihnachtsattraktionen in London.
-                Dort gibt es Fahrgeschäfte, Essen, Eisbahnen und
-                Weihnachtsstände.
-            </p>
-        </section>
+        <p>
+            Das Winter Wonderland im Hyde Park ist einer der
+            größten Weihnachtsmärkte Europas. Besucher können
+            Schlittschuh laufen, Fahrgeschäfte nutzen und
+            weihnachtliche Spezialitäten probieren.
+        </p>
+    </section>
 
-        <section id="sehenswuerdigkeiten">
-            <h2>London Eye im Winter</h2>
+    <section id="events">
+        <h2>Beliebte Weihnachtsaktivitäten</h2>
 
-            <img src="images/london-eye.jpg" alt="London Eye zur Weihnachtszeit">
+        <img src="images/london-eye.jpg" alt="London Eye">
 
-            <p>
-                Auch das berühmte London Eye ist in der
-                Weihnachtszeit ein beliebtes Ausflugsziel.
-                Von dort hat man einen tollen Blick über die
-                festlich beleuchtete Stadt.
-            </p>
-        </section>
+        <table>
+            <tr>
+                <th>Ort</th>
+                <th>Aktivität</th>
+            </tr>
 
-    </main>
+            <tr>
+                <td>Hyde Park</td>
+                <td>Winter Wonderland</td>
+            </tr>
+
+            <tr>
+                <td>Oxford Street</td>
+                <td>Weihnachtsbeleuchtung</td>
+            </tr>
+
+            <tr>
+                <td>London Eye</td>
+                <td>Aussicht über London</td>
+            </tr>
+        </table>
+    </section>
 
     <footer>
-        <p>Projekt: Weihnachten in London | Schuljahr 2025/2026</p>
+        <p>Projekt von [Dein Name] | Weihnachten in London</p>
     </footer>
 
 </body>
